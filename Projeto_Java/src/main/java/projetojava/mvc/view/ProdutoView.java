@@ -6,7 +6,6 @@ import projetojava.mvc.configBD.ConnectionBD;
 import projetojava.mvc.controller.ProdutoController;
 import projetojava.mvc.model.Produto;
 import java.sql.SQLException;
-import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -18,6 +17,11 @@ public class ProdutoView {
     public ProdutoView() {
         this.produtoController = new ProdutoController();
         this.scanner = new Scanner(System.in);
+    }
+
+    public void iniciarAplicacao() {
+        System.out.println("Seja bem vindo ao nosso sistema de gerenciamento de produtos!");
+        exibirMenu();
     }
 
     public void exibirMenu() {
@@ -187,5 +191,4 @@ public class ProdutoView {
             throw new FalhaConexaoException("Falha ao estabelecer conexão com o banco de dados." + e.getMessage());
         }
     }
-
 }
