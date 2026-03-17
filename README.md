@@ -15,7 +15,7 @@ Para realizar a execução do projeto, é necessário a instalação de algumas 
 
  * **IntelliJ** - IDE utilizada para o desenvolvimento do projeto;
  * **Java/JDK 17/21/25 LTS** - Kit de Desenvolvimento Java para que você consiga executar todo o ambiente Java sem maiores problemas;
- * **MySQL Server/Workbench** - SGBD utilizado para realizar o tratamento e manipulação dos dados.
+ * **MySQL Server/Workbench** - SGBD utilizado para realizar a persistência dos dados.
 
 Após isso, é necessário o clone do projeto na máquina que será executada, através do comando abaixo: 
 
