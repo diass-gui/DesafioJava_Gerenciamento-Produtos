@@ -1,4 +1,4 @@
-package projetojava.mvc.model;
+package projetojava.mvc.Model;
 
 public class Produto {
 

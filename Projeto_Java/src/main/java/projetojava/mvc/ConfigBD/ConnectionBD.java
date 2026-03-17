@@ -1,4 +1,4 @@
-package projetojava.mvc.configBD;
+package projetojava.mvc.ConfigBD;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

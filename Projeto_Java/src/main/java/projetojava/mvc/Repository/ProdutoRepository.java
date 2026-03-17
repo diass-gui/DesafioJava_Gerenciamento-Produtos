@@ -1,7 +1,7 @@
-package projetojava.mvc.repository;
+package projetojava.mvc.Repository;
 
-import projetojava.mvc.configBD.ConnectionBD;
-import projetojava.mvc.model.Produto;
+import projetojava.mvc.ConfigBD.ConnectionBD;
+import projetojava.mvc.Model.Produto;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -52,7 +52,6 @@ public class ProdutoRepository {
         } catch(SQLException e) {
             e.printStackTrace();
         }
-
         return produtos;
     }
 
@@ -79,7 +78,6 @@ public class ProdutoRepository {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         return null;
     }
 
@@ -185,7 +183,6 @@ public class ProdutoRepository {
         } catch(SQLException e) {
             e.printStackTrace();
         }
-
         return null;
     }
 }

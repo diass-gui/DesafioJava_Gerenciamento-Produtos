@@ -1,7 +1,7 @@
-package projetojava.mvc.controller;
+package projetojava.mvc.Controller;
 
-import projetojava.mvc.model.Produto;
-import projetojava.mvc.service.ProdutoService;
+import projetojava.mvc.Model.Produto;
+import projetojava.mvc.Service.ProdutoService;
 import java.util.List;
 
 public class ProdutoController {

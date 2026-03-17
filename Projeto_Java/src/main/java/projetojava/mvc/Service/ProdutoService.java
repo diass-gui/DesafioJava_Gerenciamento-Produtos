@@ -1,10 +1,10 @@
-package projetojava.mvc.service;
+package projetojava.mvc.Service;
 
 import projetojava.mvc.Exception.ProdutoNaoEncontradoException;
 import projetojava.mvc.Exception.ValidacaoBancoException;
 import projetojava.mvc.Exception.ValidacaoException;
-import projetojava.mvc.model.Produto;
-import projetojava.mvc.repository.ProdutoRepository;
+import projetojava.mvc.Model.Produto;
+import projetojava.mvc.Repository.ProdutoRepository;
 import java.util.List;
 
 public class ProdutoService {
